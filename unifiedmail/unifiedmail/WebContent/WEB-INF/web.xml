@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckloginServlet</servlet-name>
+    <servlet-class>mypack.CheckloginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MenuSessionServlet</servlet-name>
+    <servlet-class>mypack.MenuSessionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddDomainServlet</servlet-name>
+    <servlet-class>mypack.AddDomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddWBlistUserServlet</servlet-name>
+    <servlet-class>mypack.AddWBlistUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddWBlistDomainServlet</servlet-name>
+    <servlet-class>mypack.AddWBlistDomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteWBlistUserServlet</servlet-name>
+    <servlet-class>mypack.DeleteWBlistUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteWBlistDomainServlet</servlet-name>
+    <servlet-class>mypack.DeleteWBlistDomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckDomainServlet</servlet-name>
+    <servlet-class>mypack.CheckDomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditDomainAtionServlet</servlet-name>
+    <servlet-class>mypack.EditDomainAtionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditDomainProfileServlet</servlet-name>
+    <servlet-class>mypack.EditDomainProfileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>mypack.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditBCCDomainServlet</servlet-name>
+    <servlet-class>mypack.EditBCCDomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditCatchAllDomainServlet</servlet-name>
+    <servlet-class>mypack.EditCatchAllDomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditAliasesDomainServlet</servlet-name>
+    <servlet-class>mypack.EditAliasesDomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditRelayDomainServlet</servlet-name>
+    <servlet-class>mypack.EditRelayDomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckUserMailServlet</servlet-name>
+    <servlet-class>mypack.CheckUserMailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>mypack.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditUserProfileServlet</servlet-name>
+    <servlet-class>mypack.EditUserProfileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyRemAtt</servlet-name>
+    <servlet-class>mypack.ModifyRemAtt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditForwardingUserProfileServlet</servlet-name>
+    <servlet-class>mypack.EditForwardingUserProfileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditPasswordUserProfileServlet</servlet-name>
+    <servlet-class>mypack.EditPasswordUserProfileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckListMailServlet</servlet-name>
+    <servlet-class>mypack.CheckListMailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMailListServlet</servlet-name>
+    <servlet-class>mypack.AddMailListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMailAliasServlet</servlet-name>
+    <servlet-class>mypack.AddMailAliasServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditMailAliasServlet</servlet-name>
+    <servlet-class>mypack.EditMailAliasServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditMailListServlet</servlet-name>
+    <servlet-class>mypack.EditMailListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AutoCompServlet</servlet-name>
+    <servlet-class>mypack.AutoCompServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditDisDomainServlet</servlet-name>
+    <servlet-class>mypack.EditDisDomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMailListMembersServlet</servlet-name>
+    <servlet-class>mypack.AddMailListMembersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMailListModeratorsServlet</servlet-name>
+    <servlet-class>mypack.AddMailListModeratorsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckAliasMailServlet</servlet-name>
+    <servlet-class>mypack.CheckAliasMailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditPhotoServlet</servlet-name>
+    <servlet-class>mypack.EditPhotoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditPhotoDomainServlet</servlet-name>
+    <servlet-class>mypack.EditPhotoDomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImageCropServlet</servlet-name>
+    <servlet-class>mypack.ImageCropServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditUserAtionServlet</servlet-name>
+    <servlet-class>mypack.EditUserAtionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditMailListAtionServlet</servlet-name>
+    <servlet-class>mypack.EditMailListAtionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditMailAliasAtionServlet</servlet-name>
+    <servlet-class>mypack.EditMailAliasAtionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PingServlet</servlet-name>
+    <servlet-class>mypack.PingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RestartServlet</servlet-name>
+    <servlet-class>mypack.RestartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShutdownServlet</servlet-name>
+    <servlet-class>mypack.ShutdownServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TraceRouteServlet</servlet-name>
+    <servlet-class>mypack.TraceRouteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadDesclaimerServlet</servlet-name>
+    <servlet-class>mypack.UploadDesclaimerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadCsvServlet</servlet-name>
+    <servlet-class>mypack.UploadCsvServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BulkUploadUserServlet</servlet-name>
+    <servlet-class>mypack.BulkUploadUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelelteDomainServlet</servlet-name>
+    <servlet-class>mypack.DelelteDomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelelteUserServlet</servlet-name>
+    <servlet-class>mypack.DelelteUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelelteUserSearchServlet</servlet-name>
+    <servlet-class>mypack.DelelteUserSearchServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelelteSelectedUserServlet</servlet-name>
+    <servlet-class>mypack.DelelteSelectedUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelelteSelectedUserSearchServlet</servlet-name>
+    <servlet-class>mypack.DelelteSelectedUserSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdvanceUserServlet</servlet-name>
+    <servlet-class>mypack.AdvanceUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RemoveUserPhotoServlet</servlet-name>
+    <servlet-class>mypack.RemoveUserPhotoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RemoveUserPhotoDomainServlet</servlet-name>
+    <servlet-class>mypack.RemoveUserPhotoDomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditDomainAdvance</servlet-name>
+    <servlet-class>mypack.EditDomainAdvance</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditCommonFieldUserServlet</servlet-name>
+    <servlet-class>mypack.EditCommonFieldUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditCommonFieldUserSearchServlet</servlet-name>
+    <servlet-class>mypack.EditCommonFieldUserSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditThrottlingDomainServlet</servlet-name>
+    <servlet-class>mypack.EditThrottlingDomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditThrottlingUserServlet</servlet-name>
+    <servlet-class>EditThrottlingUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UPSServlet</servlet-name>
+    <servlet-class>mypack.UPSServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditWBListUserServlet</servlet-name>
+    <servlet-class>mypack.EditWBListUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditPasswordAdminProfileServlet</servlet-name>
+    <servlet-class>mypack.EditPasswordAdminProfileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExMaillistMemServlet</servlet-name>
+    <servlet-class>mypack.ExMaillistMemServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InMaillistMemServlet</servlet-name>
+    <servlet-class>mypack.InMaillistMemServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MaillistModServlet</servlet-name>
+    <servlet-class>mypack.MaillistModServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditDomainAdminProfileServlet</servlet-name>
+    <servlet-class>mypack.EditDomainAdminProfileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SupportServlet</servlet-name>
+    <servlet-class>mypack.SupportServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelelteMailAliasServlet</servlet-name>
+    <servlet-class>DelelteMailAliasServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelelteMailListServlet</servlet-name>
+    <servlet-class>mypack.DelelteMailListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadWelcomemailServlet</servlet-name>
+    <servlet-class>mypack.UploadWelcomemailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QRelServlet</servlet-name>
+    <servlet-class>mypack.QRelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CountUserServlet</servlet-name>
+    <servlet-class>mypack.CountUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CountMailListServlet</servlet-name>
+    <servlet-class>mypack.CountMailListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CountMailAliasesServlet</servlet-name>
+    <servlet-class>mypack.CountMailAliasesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CountDomainServlet</servlet-name>
+    <servlet-class>mypack.CountDomainServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckloginServlet</servlet-name>
+    <url-pattern>/servlet/CheckloginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MenuSessionServlet</servlet-name>
+    <url-pattern>/servlet/MenuSessionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddDomainServlet</servlet-name>
+    <url-pattern>/servlet/AddDomainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddWBlistUserServlet</servlet-name>
+    <url-pattern>/servlet/AddWBlistUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddWBlistDomainServlet</servlet-name>
+    <url-pattern>/servlet/AddWBlistDomainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteWBlistUserServlet</servlet-name>
+    <url-pattern>/servlet/DeleteWBlistUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteWBlistDomainServlet</servlet-name>
+    <url-pattern>/servlet/DeleteWBlistDomainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckDomainServlet</servlet-name>
+    <url-pattern>/servlet/CheckDomainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditDomainAtionServlet</servlet-name>
+    <url-pattern>/servlet/EditDomainAtionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditDomainProfileServlet</servlet-name>
+    <url-pattern>/servlet/EditDomainProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/servlet/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditBCCDomainServlet</servlet-name>
+    <url-pattern>/servlet/EditBCCDomainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditCatchAllDomainServlet</servlet-name>
+    <url-pattern>/servlet/EditCatchAllDomainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditAliasesDomainServlet</servlet-name>
+    <url-pattern>/servlet/EditAliasesDomainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditRelayDomainServlet</servlet-name>
+    <url-pattern>/servlet/EditRelayDomainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckUserMailServlet</servlet-name>
+    <url-pattern>/servlet/CheckUserMailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/servlet/AddUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditUserProfileServlet</servlet-name>
+    <url-pattern>/servlet/EditUserProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyRemAtt</servlet-name>
+    <url-pattern>/servlet/ModifyRemAtt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditForwardingUserProfileServlet</servlet-name>
+    <url-pattern>/servlet/EditForwardingUserProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditPasswordUserProfileServlet</servlet-name>
+    <url-pattern>/servlet/EditPasswordUserProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckListMailServlet</servlet-name>
+    <url-pattern>/servlet/CheckListMailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMailListServlet</servlet-name>
+    <url-pattern>/servlet/AddMailListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMailAliasServlet</servlet-name>
+    <url-pattern>/servlet/AddMailAliasServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditMailAliasServlet</servlet-name>
+    <url-pattern>/servlet/EditMailAliasServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditMailListServlet</servlet-name>
+    <url-pattern>/servlet/EditMailListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AutoCompServlet</servlet-name>
+    <url-pattern>/servlet/AutoCompServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditDisDomainServlet</servlet-name>
+    <url-pattern>/servlet/EditDisDomainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMailListMembersServlet</servlet-name>
+    <url-pattern>/servlet/AddMailListMembersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMailListModeratorsServlet</servlet-name>
+    <url-pattern>/servlet/AddMailListModeratorsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckAliasMailServlet</servlet-name>
+    <url-pattern>/servlet/CheckAliasMailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditPhotoServlet</servlet-name>
+    <url-pattern>/servlet/EditPhotoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditPhotoDomainServlet</servlet-name>
+    <url-pattern>/servlet/EditPhotoDomainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageCropServlet</servlet-name>
+    <url-pattern>/servlet/ImageCropServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditUserAtionServlet</servlet-name>
+    <url-pattern>/servlet/EditUserAtionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditMailListAtionServlet</servlet-name>
+    <url-pattern>/servlet/EditMailListAtionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditMailAliasAtionServlet</servlet-name>
+    <url-pattern>/servlet/EditMailAliasAtionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PingServlet</servlet-name>
+    <url-pattern>/servlet/PingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RestartServlet</servlet-name>
+    <url-pattern>/servlet/RestartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShutdownServlet</servlet-name>
+    <url-pattern>/servlet/ShutdownServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TraceRouteServlet</servlet-name>
+    <url-pattern>/servlet/TraceRouteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadDesclaimerServlet</servlet-name>
+    <url-pattern>/servlet/UploadDesclaimerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadCsvServlet</servlet-name>
+    <url-pattern>/servlet/UploadCsvServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BulkUploadUserServlet</servlet-name>
+    <url-pattern>/servlet/BulkUploadUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelelteDomainServlet</servlet-name>
+    <url-pattern>/servlet/DelelteDomainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelelteUserServlet</servlet-name>
+    <url-pattern>/servlet/DelelteUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelelteUserSearchServlet</servlet-name>
+    <url-pattern>/servlet/DelelteUserSearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelelteSelectedUserServlet</servlet-name>
+    <url-pattern>/servlet/DelelteSelectedUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelelteSelectedUserSearchServlet</servlet-name>
+    <url-pattern>/servlet/DelelteSelectedUserSearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdvanceUserServlet</servlet-name>
+    <url-pattern>/servlet/AdvanceUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveUserPhotoServlet</servlet-name>
+    <url-pattern>/servlet/RemoveUserPhotoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveUserPhotoDomainServlet</servlet-name>
+    <url-pattern>/servlet/RemoveUserPhotoDomainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditDomainAdvance</servlet-name>
+    <url-pattern>/servlet/EditDomainAdvance</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditCommonFieldUserServlet</servlet-name>
+    <url-pattern>/servlet/EditCommonFieldUserServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>EditCommonFieldUserSearchServlet</servlet-name>
+    <url-pattern>/servlet/EditCommonFieldUserSearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditThrottlingDomainServlet</servlet-name>
+    <url-pattern>/servlet/EditThrottlingDomainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditThrottlingUserServlet</servlet-name>
+    <url-pattern>/servlet/EditThrottlingUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UPSServlet</servlet-name>
+    <url-pattern>/servlet/UPSServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditWBListUserServlet</servlet-name>
+    <url-pattern>/servlet/EditWBListUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditPasswordAdminProfileServlet</servlet-name>
+    <url-pattern>/servlet/EditPasswordAdminProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExMaillistMemServlet</servlet-name>
+    <url-pattern>/servlet/ExMaillistMemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InMaillistMemServlet</servlet-name>
+    <url-pattern>/servlet/InMaillistMemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MaillistModServlet</servlet-name>
+    <url-pattern>/servlet/MaillistModServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditDomainAdminProfileServlet</servlet-name>
+    <url-pattern>/servlet/EditDomainAdminProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SupportServlet</servlet-name>
+    <url-pattern>/servlet/SupportServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelelteMailAliasServlet</servlet-name>
+    <url-pattern>/servlet/DelelteMailAliasServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelelteMailListServlet</servlet-name>
+    <url-pattern>/servlet/DelelteMailListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadWelcomemailServlet</servlet-name>
+    <url-pattern>/servlet/UploadWelcomemailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QRelServlet</servlet-name>
+    <url-pattern>/servlet/QRelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CountUserServlet</servlet-name>
+    <url-pattern>/servlet/CountUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CountMailListServlet</servlet-name>
+    <url-pattern>/servlet/CountMailListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CountMailAliasesServlet</servlet-name>
+    <url-pattern>/servlet/CountMailAliasesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CountDomainServlet</servlet-name>
+    <url-pattern>/servlet/CountDomainServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>login/login.jsp</welcome-file>
+  </welcome-file-list>
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/error-404.jsp</location>
+  </error-page>
+</web-app>
